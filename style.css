@@ -1,0 +1,477 @@
+html{
+	width: 100%; overflow-x: hidden;
+}
+body{
+	font-family: Arial,;
+}
+.wrapper{
+	display: flex;
+	min-height: 100%;
+	overflow: hidden;
+	flex-direction: column;
+}
+.container{
+	max-width: 2100px;
+	padding: 0px 15px;
+}
+.header{
+	background: #858BC6;
+}
+.header_row{
+	display: flex;
+	justify-content: space-between;
+	height: 90px;
+	align-items: center;
+}
+.header_logo{
+	height: 120px;
+	background:;
+	background-image: url(img/logo.png);
+}
+.header_slogan{
+	height: 80px;
+	background:;
+	margin-top: 2px;
+	margin-left: 1em;
+}
+.header_text{
+	font-family: Alegreya Sans SC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 43px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.start_block{
+	display: flex;
+	height: 960px;
+	background: #A2A8E5;
+}
+.two-block-row{
+	display: flex;
+	margin: 0 -15px;
+}
+.unifond_photo{
+	background-image: url(img/unifond.png);
+	height: 900px;
+	background-size: 100% 100%;
+	background-color:;
+	display: block;
+}
+.inv-unifond_photo{
+	background-image: url(img/unifond_text.gif);
+	height: 900px;
+	background-size: 100% 100%;
+	background-color:;
+	display: none;
+}
+.inv-unifond_photo2{
+	background-image: url(img/uniford2.gif);
+	height: 900px;
+	background-size: 100% 100%;
+	background-color:;
+	display: none;
+	top: 90px;
+	left: 0px;
+	position: absolute;
+}
+.cancel{
+	background: red;
+}
+.text_container{
+	height: 900px;
+	background-color:;
+}
+.text_center{
+	height: 150px;
+	top: 400px;
+	left: 550px;
+	position: absolute;
+}
+.main_text_center{
+	height: 150px;
+	top: 350px;
+	left: 550px;
+	position: absolute;
+}
+.start_text{
+	color: #FFFFFF;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	text-align: center;
+	font-size: 84px;
+	line-height: 78,02px;
+}
+.menu_img{
+	height: 60px;
+	background-image: url(img/3.png);
+	background-size: 100% 100%;
+}
+.start_btn{
+
+}
+.btn_div{
+	max-width: 8em; /* блок занимает ширину родителя, max-width её ограничивает */
+  	min-height: 2em;
+  	margin-left: auto;
+  	margin-right: 0.1em;
+}
+.img{
+	height: 55px;
+}
+.btn_modal{
+	border: 0;
+	background-color: #858BC6;
+}
+.content_block{
+	height: 700px;
+	background: #94DCCB;
+}
+.test-text_block{
+	height: 70px;
+	background-color:;
+	margin-top: 2em;
+	margin-left: 6em;
+}
+.test-text{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 78px;
+	text-align: left;
+	color: #FFFFFF;
+}
+.menu_window{
+	height: 900px;
+	background-color: #858BC6;
+	top: 90px;
+	left: 1864px;
+	position: absolute;
+}
+.menu_header{
+	height: 70px;
+	background: ;
+}
+.menu_cancel_box{
+	max-width: 5.2em; /* блок занимает ширину родителя, max-width её ограничивает */
+  	min-height: 4em;
+  	margin-left: auto;
+  	margin-right: 0.1em;
+  	background: ;
+}
+.menu_blocks_container{
+	height: 830px;
+	background: ;
+}
+.links{
+	text-decoration: none;
+}
+.menu_block1{
+	height: 170px;
+	background: white;
+	border-radius: 10px;
+}
+.menu_block{
+	height: 170px;
+	background: white;
+	margin-top: 3em;
+	border-radius: 10px;
+}
+.menu_text{
+	font-family: Mate;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	line-height: 37px;
+	text-align: center;
+	color: #000000;
+	margin-top: 1.5ex;
+	margin-bottom: 1.5ex;
+}
+.cancel_btn{
+	border: 0;
+	background: #858BC6;
+	margin-left: 1.5em;
+}
+.cancel_btn_image{
+	height: 50px;
+}
+.search-filter{
+	display: flex;
+	background:;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 2em;
+	height: 70px; 
+}
+.filter{ /* блок занимает ширину родителя, max-width её ограничивает */
+  	height: 60px;
+  	margin-left: 85em;
+  	background:;
+}
+.search{
+	height: 60px;
+	margin-left: 5em;
+	background:;
+}
+.search_input{
+	height: 40px;
+	border-radius: 5px;
+	border: 0;
+}
+.two-block{
+	height: 400px;
+	background:;
+	margin-left: 1em;
+	margin-right: 2em;
+	margin-top: 2em;
+}
+.two-block-row-1{
+	height: 360px;
+	background:;
+	margin-top: 2em;
+	display: flex;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.two-block1{
+	height: 360px;
+	background: white;
+	margin-left: 3.5em;
+	border-radius: 10px;
+}
+.two-block2{
+	height: 360px;
+	background: white;
+	margin-left: 8.5em;
+	border-radius: 10px;
+}
+.blocks_text{
+	font-family: Mate;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	line-height: 37px;
+	color: #000000;
+	margin-top: 2.2ex;
+	margin-bottom: 2ex;
+	text-align: center;
+}
+.rotate_main{
+	width: 2000px;
+	height: 250px;
+	background: #94DCCB;
+	transform: rotate(-3.29deg);
+	position: absolute;
+	top: 1050px;
+	left: -10px;
+}
+.straight_main{
+	width: 2000px;
+	height: 360px;
+	background: #94DCCB;
+	position: absolute;
+	top: 1050px;
+	left: -60px;
+}
+.main_text_block{
+	height: 320px;
+}
+.main_text{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 68px;
+	line-height: 56px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.join_block{
+	height: 450px;
+	background: #A2A8E5;
+	margin-top: 0;
+	margin-bottom: auto;
+	border: 10px;
+	border-radius: 10px;
+	border-color: white;
+}
+.join_input{
+	height: 70px;
+	border-radius: 10px;
+	margin-left: 15em;
+	margin-top: 0.5em;
+}
+.join_btn{
+	height: 70px;
+	border-radius: 10px;
+	margin-left: 15em;
+	margin-top: 2em;
+}
+.register_block{
+	height: 50px;
+	border-radius: 10px;
+	margin-left: 15em;
+	margin-top: 2em;
+	background: white;
+}
+.btn_text{
+	font-family: Mate;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.register_text{
+	font-family: Mate;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	text-align: center;
+	color: #000000;
+}
+.test_block{
+	height: 1400px;
+	background: #A2A8E5;
+}
+.test_name_block{
+	height: 200px;
+	margin-top: 2em;
+	background:;
+}
+.test_question_block{
+	height: 150px;
+	background: white;
+	margin-top: 2em;
+	border-radius: 10px;
+}
+.test_text{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 88px;
+	line-height: 56px;
+	text-align: center;
+	color: white;
+}
+.question_text{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	color: black;
+}
+.answers_block{
+	height: 200px;
+	background: ;
+	margin-top: 2em;
+}
+.answers_row{
+	height: 150px;
+	display: flex;
+	background:;
+	margin-top: 5em;
+}
+.answers1{
+	height: 150px;
+	background:;
+	border-radius: 10px;
+	background: white;
+	margin-left: 6em;
+}
+.answers2{
+	height: 150px;
+	background:;
+	border-radius: 10px;
+	margin-left: 6em;
+	background: white;
+}
+.answers_text{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 78px;
+	line-height: 56px;
+	text-align: center;
+	color: black;
+	margin-top: 0.5em;
+}
+.personal_block_row{
+	height: 700px;
+	background:;
+	display: flex;
+}
+.personal_block_info{
+	height: 700px;
+	background:;
+	margin-left: 5.5em;
+}
+.personal_block_lvl{
+	height: 700px;
+	background:;
+	margin-left: 5.5em;
+}
+.avatar_block{
+	height: 250px;
+	background: ;
+	margin-top: 1em;
+	border-radius: 50%;
+}
+.info_block{
+	height: 350px;
+	border-radius: 10px;
+	margin-top: 2em;
+	background: ;
+}
+.fio_block{
+	height: 110px;
+	background: white;
+	border-radius: 10px;
+}
+.age_block{
+	height: 110px;
+	background: white;
+	margin-top: 5px;
+	border-radius: 10px;
+}
+.pol_block{
+	height: 110px;
+	background: white;
+	margin-top: 5px;
+	border-radius: 10px;
+}
+.lvl_block{
+	height: 635px;
+	border-radius: 10px;
+	margin-top: 1em;
+	background: white;
+	border-radius: 10px;
+}
+.lvl_block_text{
+	height: 230px;
+}
+.lvl_block_text_2{
+	height: 390px;
+	background:;
+}
+.info_text{
+	font-family: Alegreya Sans SC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	color: #000000;
+}
+.lvl_text{
+	font-family: Alegreya Sans SC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 43px;
+	text-align: center;
+	color: #000000;
+
+}
